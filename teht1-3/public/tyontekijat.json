@@ -1,0 +1,48 @@
+{
+  "tyontekijat": [
+    {
+      "firstName": "Mauno",
+      "lastName": "Ahonen",
+      "osoite": "Albertinkatu 3 C",
+      "puhelinnumero": [
+          {
+              "kotipuhelin": "040-1234567",
+              "työpuhelin": "040-6452568"
+          }
+      ]
+    },
+    {
+      "firstName": "Matti",
+      "lastName": "Näsä",
+      "osoite": "Radiokatu 4 B",
+      "puhelinnumero": [
+        {
+            "kotipuhelin": "045-9542418",
+            "työpuhelin": null
+        }
+    ]
+    },
+    {
+      "firstName": "Raimo",
+      "lastName": "Vormisto",
+      "osoite": "Annankatu 6 A",
+      "puhelinnumero": [
+        {
+            "kotipuhelin": "044-4638195",
+            "työpuhelin": "040-6452568"
+        }
+    ]
+    },
+    {
+      "firstName": "Timo",
+      "lastName": "Silakka",
+      "osoite": "Taidemaalarinkatu 23 C",
+      "puhelinnumero": [
+        {
+            "kotipuhelin": "040-1448937",
+            "työpuhelin": null
+        }
+    ]
+    }
+  ]
+}
