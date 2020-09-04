@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.alepapyora.fi" xmlns="http://www.alepapyora.fi" elementFormDefault="qualified">
+    <xsd:element name="bikestation">
+        <xsd:complexType>
+            <xsd:simpleContent>
+                <xsd:extension base="xsd:string">
+                    <xsd:attribute name="location" type="xsd:string" use="required" />
+                </xsd:extension>
+            </xsd:simpleContent>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="availablebikes" type="xsd:integer" />
+    <xsd:element name="spots" type="xsd:integer" />
+    <xsd:complexType name="bikeType">
+        <xsd:sequence>
+            <xsd:element ref="bikestation" />
+            <xsd:element ref="availablebikes" />
+            <xsd:element ref="spots" />
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:element name="bikes">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="bike" type="bikeType" maxOccurs="unbounded" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

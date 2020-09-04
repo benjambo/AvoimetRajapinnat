@@ -9,7 +9,7 @@ const App = () => {
       .then((res) => setData(res.network.stations))
   }, [])
 
-  const listBikes = () =>
+  const dataList = () =>
     data.map((e) => (
       <tr key={e.name}>
         <td>{e.name}</td>
@@ -29,7 +29,7 @@ const App = () => {
             <th>Vapaita paikkoja jäljellä: </th>
           </tr>
         </thead>
-        <tbody>{listBikes()}</tbody>
+        <tbody>{dataList()}</tbody>
       </table>
     </div>
   )

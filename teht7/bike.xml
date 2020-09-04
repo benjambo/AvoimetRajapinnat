@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE bikes SYSTEM "bike.dtd">
+<bikes>
+    <bike>
+        <bikestation location="Espoo">Luhtimäki</bikestation>
+        <availablebikes>4</availablebikes>
+        <spots>6</spots>
+    </bike>
+    <bike>
+        <bikestation location="Helsinki" identification="Helsinki_1">Petikontie</bikestation>
+        <availablebikes>7</availablebikes>
+        <spots>3</spots>
+    </bike>
+    <bike>
+        <bikestation location="Espoo">Martinkyläntie</bikestation>
+        <availablebikes>6</availablebikes>
+        <spots>4</spots>
+    </bike>
+    <bike>
+        <bikestation location="Vantaa" identification="Vantaan_1">Vantaanpuisto</bikestation>
+        <availablebikes>13</availablebikes>
+        <spots>0</spots>
+    </bike>
+</bikes>

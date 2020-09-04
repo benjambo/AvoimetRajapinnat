@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!ELEMENT bikes (bike+)>
+<!ELEMENT bike (bikestation, availablebikes, spots)>
+<!ELEMENT bikestation (#PCDATA)>
+<!ATTLIST bikestation
+    location CDATA #REQUIRED
+    identification ID #IMPLIED
+>
+<!ELEMENT availablebikes (#PCDATA)>
+<!ELEMENT spots (#PCDATA)>
